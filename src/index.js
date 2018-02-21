@@ -17,3 +17,4 @@ $("body").css("background-color", "cyan");
 // Proxies
 proxies.proxyObj.age;
 proxies.proxyObj.height;
+proxies.proxyObj.sayHello;

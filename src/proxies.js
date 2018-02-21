@@ -5,7 +5,8 @@ const proxies = {
                 console.log(`getting the ${property} property`);
                 console.log(targetObj[property]);
             }
-        })
+        }),
+    sayHello: () => console.log('Hello proxy')
 };
 
 module.exports = proxies;
